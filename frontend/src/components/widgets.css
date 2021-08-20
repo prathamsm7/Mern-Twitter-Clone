@@ -1,0 +1,13 @@
+.widgets__widgetContainer {
+  margin-top: 15px;
+}
+
+.widgets__widgetContainer > h2 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+TwitterTweetEmbed {
+  max-width: 200px;
+  border: 1px solid red;
+}

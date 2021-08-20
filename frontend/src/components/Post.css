@@ -1,0 +1,109 @@
+.postUserImageContainer {
+  width: 2rem;
+  height: 2rem;
+  flex: none;
+}
+
+.postUserImageContainer img {
+  width: 100%;
+  border-radius: 50%;
+  background-color: white;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  cursor: pointer;
+  border-bottom: 1px solid var(--lightGrey);
+}
+
+.mainContentContainer {
+  flex: 1;
+  display: flex;
+}
+
+.postContentContainer {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.username,
+.date {
+  color: var(--greyText);
+  padding: 0.5rem;
+}
+
+.displayName {
+  font-weight: bold;
+}
+
+.postBody img {
+  width: 80%;
+  display: flex;
+  border-radius: 15px;
+}
+
+.postFooter {
+  display: flex;
+  align-items: center;
+}
+
+.postFooter .postButtonContainer {
+  flex: 1;
+  display: flex;
+}
+
+.postFooter .postButtonContainer button {
+  padding: 2px 5px;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header a,
+.header span {
+  padding-right: 5px;
+}
+
+.modal-title {
+  color: rgb(69, 69, 160);
+  font-weight: 700;
+}
+
+.modal-header .fa-times-circle {
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modal-body > .header > .displayName {
+  color: dodgerblue;
+}
+
+.modal-body > .header > .username,
+.date {
+  color: black;
+  font-weight: 500;
+}
+
+.modal-body .postBody {
+  margin: 1rem 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--lightGrey);
+}
+
+.modal-body .replyTo {
+  color: var(--greyText);
+  font-weight: 500;
+}
+
+.modal-body .form-group > input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0;
+}
